@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDGOC AITR Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <img src="gdgoc-img.jpeg" alt="GDGOC AITR Logo" class="nav-logo">
+      <span class="nav-title">GDGOC AITR Campus</span>
+    </div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Events</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+      <button class="register-btn">Register</button>
+    </div>
+  </nav>
+
+  <!-- Registration Form Section -->
+  <div class="container">
+    <h2>Register for GDGOC AITR Campus</h2>
+    <p>Join us for an amazing event!</p>
+<form id="registerForm">
+  <input type="text" id="name" placeholder="Enter your full name" required>
+  <input type="email" id="email" placeholder="Enter your email address" required>
+  <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+  <div class="row">
+    <select id="year" required>
+      <option value="">Select your year</option>
+      <option>1st Year</option>
+      <option>2nd Year</option>
+      <option>3rd Year</option>
+      <option>4th Year</option>
+    </select>
+
+    <select id="branch" required>
+      <option value="">Select your branch</option>
+      <option>CSE</option>
+      <option>IT</option>
+      <option>ECE</option>
+      <option>EEE</option>
+      <option>ME</option>
+      <option>CE</option>
+    </select>
+  </div>
+
+  <button type="submit" class="submit-btn">Register Now</button>
+</form>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
